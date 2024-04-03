@@ -1,0 +1,201 @@
+:root {
+    --maincolor: #18122B;
+    --secountColor: #393053; 
+    --stylecolor: #ffc107;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--maincolor);
+}
+
+/* navbar */
+
+#nav {
+    z-index: 10;
+}
+
+.nav-link.active {
+    color: var(--stylecolor) !important;
+}
+
+.nav-dark {
+    background-color: var(--secountColor) !important;
+    z-index: 5;
+    transition: .5s;
+}
+
+
+/* hero */
+#hero {
+    /* height: 100vh; */
+
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+#hero .typing-text {
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    border-right: .15em solid orange; /* Garis imitasi kursor mengetik */
+    letter-spacing: .15em;
+}
+
+/* @keyframes gerak {
+  from {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(19px);
+  }
+} */
+
+#hero h1 {
+    font-size: 2.4rem;
+}
+
+#hero p {
+    font-size: .98rem;
+}
+
+#hero p .color-style {
+    color: var(--stylecolor);
+}
+
+#hero button .btn-outline-warning {
+    background-color: var(--stylecolor) !important;
+}
+
+#hero .btn-custom1 {
+    transition: 1s;
+}
+#hero .btn-custom1:hover {
+    margin-left: 30px;
+    transition: 1s;
+}
+
+#hero .social-icon {
+    width: 80%;
+    font-size: 20px;
+    position: absolute;
+    bottom: 0;
+}
+
+#hero .social-icon span {
+    font-size: 17px;
+   
+}
+
+#hero .icon {
+    color: #fff;
+}
+#hero .icon:hover {
+    text-decoration: none;
+    color: var(--stylecolor);
+}
+
+#hero .download {
+    text-decoration: none;
+    font-size: 17px;
+}
+/* About */
+
+hr {
+    width: 35%;
+    height: 5px;
+    color: var(--stylecolor);
+    margin: 0 auto;
+    opacity: 100%;
+}
+#about {
+    min-height: 300px;
+    width: 100%;
+    background-color: var(--secountColor);
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    margin-bottom: 80px;
+}
+
+#about .style-color {
+    color: var(--stylecolor);
+}
+
+/* Skill */
+#skill {
+    min-height: 600px;
+    width: 100%;
+    color: #fff;
+}
+
+#skill img {
+    margin-inline: 10px;
+}
+
+#skill .card {
+    background-color: #665c85;
+    height: 340px;
+    color: #fff;
+}
+
+#skill .card:hover {
+    background-color: var(--stylecolor);
+}
+
+#skill .skill-konten {
+    margin-top: 100px;
+}
+
+/* Project */
+#project {
+    width: 100%;
+    color: #fff;
+    margin-top: -170px;
+    /* margin-bottom: 10px; */
+    padding-top: 270px;
+    padding-bottom: 80px;
+    background-color: var(--secountColor); 
+}
+
+
+#project  img {
+    width: 300px;
+    padding: 10px;
+    transition: 1s;
+}
+
+#project  img:hover {
+    transition: 1s;
+    scale: 110%;
+}
+
+#project a {
+    text-decoration: none;
+    color: red;
+}
+
+/* Contact */
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+/* Footer */
+#footer {
+    /* min-height: 100px; */
+    color: #fff;
+}
+
+#footer a  {
+    text-decoration: none;
+    color: #fff;
+}
+#footer a i {
+    font-size: 20px;
+}
+#footer a:hover {
+    color: var(--stylecolor);
+}
+
